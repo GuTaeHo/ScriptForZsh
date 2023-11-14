@@ -9,6 +9,7 @@ if [ ! -d testDir ]; then
 	mkdir testDir
 	echo "testDir 생성 완료"
 fi
+# cp 명령(copy)은 복사 기능을 수행하며, i 플래그는 기존 파일이 있다면 사용자에게 허용 여부를 묻고 덮어쓴다.
 cp -i shellScriptTest.sh testDir/shellScriptTestCopied.sh
 
 
