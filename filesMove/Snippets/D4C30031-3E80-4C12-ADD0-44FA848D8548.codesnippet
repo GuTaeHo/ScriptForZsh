@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uipv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@available(iOS 17, *)
+#Preview(&lt;#T##name: String?##String?#&gt;, traits: &lt;#T##Preview.ViewTraits...##Preview.ViewTraits#&gt;) {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D4C30031-3E80-4C12-ADD0-44FA848D8548</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Preview 스니펫을 생성합니다.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>#Preview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

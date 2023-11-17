@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uicv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var collectionView: UICollectionView = {
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewCompositionalLayout(section: &lt;#T##NSCollectionLayoutSection#&gt;))
+        collectionView.registerCellFromNib(&lt;#T##classType: T.Type##T.Type#&gt;)
+        collectionView.registerSupplementaryViewFromNib(&lt;#T##classType: T.Type##T.Type#&gt;, ofKind: UICollectionView.elementKindSectionHeader)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
+        return collectionView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>ACA4C2DB-21E1-484F-A953-83737DBADFF0</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Code Base UICollectionView 를 생성합니다.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UICollectionView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

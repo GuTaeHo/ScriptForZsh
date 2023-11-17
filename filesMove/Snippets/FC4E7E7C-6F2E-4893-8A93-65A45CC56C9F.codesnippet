@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uist</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>lazy var &lt;#stackView#&gt;: UIStackView = {
+    let stackView = UIStackView(arrangedSubviews: &lt;#subviews#&gt;)
+        stackView.axis = .vertical
+        stackView.cornerRadius = 6.0
+    stackView.backgroundColor = &lt;#color#&gt;
+        return stackView
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FC4E7E7C-6F2E-4893-8A93-65A45CC56C9F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Code Base UIStackView 를 생성합니다</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIStackView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
